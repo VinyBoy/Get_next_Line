@@ -6,7 +6,7 @@
 /*   By: vnieto-j <vnieto-j@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/12 15:47:54 by vnieto-j          #+#    #+#             */
-/*   Updated: 2023/04/12 18:07:41 by vnieto-j         ###   ########.fr       */
+/*   Updated: 2023/04/14 15:29:21 by vnieto-j         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,13 @@
 int		ft_one(char *stash);
 char	*ft_join(char *buff, char *stash);
 int		ft_check_new_line(char *stash);
-int		ft_strlen(char *str);
-int		ft_strlen_after_one(char *str, char c);
+int		strln(char *str);
+int		strlnao(char *str, char c);
 void	init_and_put_one(char *stash, char c);
 char	*ft_join(char *buff, char *stash);
 char	*ft_join_new_line(char *buff, char *stash);
 char	*get_next_line(int fd);
+char	*init_buff(void);
+char	*ft_condtion(char stash[BUFFER_SIZE], int fd, char *buff);
 
 #endif

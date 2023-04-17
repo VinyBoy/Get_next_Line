@@ -6,7 +6,7 @@
 /*   By: vnieto-j <vnieto-j@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/12 15:48:05 by vnieto-j          #+#    #+#             */
-/*   Updated: 2023/04/12 17:51:47 by vnieto-j         ###   ########.fr       */
+/*   Updated: 2023/04/14 14:14:09 by vnieto-j         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ int	ft_check_new_line(char *stash)
 	return (0);
 }
 
-int	ft_strlen(char *str)
+int	strln(char *str)
 {
 	int	i;
 
@@ -50,7 +50,7 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-int	ft_strlen_after_one(char *str, char c)
+int	strlnao(char *str, char c)
 {
 	int	i;
 	int	j;
